@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "LDR Account Switcher",
+  "version": "0.0.1",
+  "description": "LDRのアカウント切り替えを行う拡張機能です。",
+  "content_scripts": [
+    {
+      "matches": [ "http://reader.livedoor.com/reader/" ],
+      "js": [
+        "lib/jquery-1.8.0.min.js",
+        "lib/content.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "http://reader.livedoor.com/subaccount",
+    "http://reader.livedoor.com/account/switch"
+  ]
+}

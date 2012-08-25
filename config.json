@@ -1,0 +1,8 @@
+{
+  "name": "LDR Account Switcher",
+  "appid": "jngppkmdhennekebnokiahpgcfoaijek",
+  "source_dir": "src",
+  "pem_file": "ldr-account-switcher.pem",
+  "crx_file": "output/ldr-account-switcher.crx",
+  "zip_file": "output/ldr-account-switcher.zip"
+}
